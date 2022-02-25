@@ -41,7 +41,7 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-cover bg-center bg-[url('https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png')]">
       <div className="bg-white rounded-lg flex flex-col z-50 p-6 my-20">
         <div className="flex flex-col items-center justify-center space-y-3 my-2">
-          <img src="Logo.svg" alt="" width={200} />
+          <img src="logo.svg" alt="" width={200} />
           <h1 className="text-md text-gray-500 font-semibold">
             A place to share knowledge and better understand the world
           </h1>
