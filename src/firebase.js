@@ -1,14 +1,17 @@
 import Firebase from "firebase";
+import { config } from "dotenv";
+
+config();
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBnjg_gXSsJL0w6NC7zXBc6cdM0alorOSU",
-  authDomain: "quora-clone-vj.firebaseapp.com",
-  projectId: "quora-clone-vj",
-  storageBucket: "quora-clone-vj.appspot.com",
-  messagingSenderId: "321780331905",
-  appId: "1:321780331905:web:5ba782eedfcf2b5aaa2480",
-  measurementId: "G-EZ5BFPE4NJ",
+  apiKey: process.env.FB_API_KEY,
+  authDomain: process.env.FB_AUTH_DOMAIN,
+  projectId: process.env.FB_PROJECT_ID,
+  storageBucket: process.env.FB_STORAGE_BUCKET,
+  messagingSenderId: process.env.FB_MESSAGING_SENDER_ID,
+  appId: process.env.FB_API_ID,
+  measurementId: process.env.FB_MEASUREMENT_ID,
 };
 
 Firebase.initializeApp(firebaseConfig);

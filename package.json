@@ -16,6 +16,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react-redux": "^7.1.22",
     "core-js": "^3.20.2",
+    "dotenv": "^16.0.0",
     "firebase": "^8.10.0",
     "framer-motion": "^6.2.8",
     "react": "^17.0.2",
