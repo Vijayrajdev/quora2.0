@@ -12,7 +12,7 @@ A web application which allows you to ask questions and answer to 0ther question
 
 | 1. Login page of our Quora2.0                                           | ![Image not found](/Readme_images/Login.jpg)        |
 | ----------------------------------------------------------------------- | --------------------------------------------------- |
-| 2. Click on `Continue with google` and voila! your Google popup appear. | ![Image not found](Readme_images\google.jpg)        |
+| 2. Click on `Continue with google` and voila! your Google popup appear. | ![Image not found](Readme_images/google.jpg)        |
 | 3. Main page of our Quora2.0                                            | ![Image not found](/Readme_images/Main.jpg)         |
 | 4. Click on `Add question` and voila! your Question modal is appears.   | ![Image not found](/Readme_images/Question_tab.jpg) |
 | 5. Click on `Answer` and voila! your Answer modal is appears.           | ![Image not found](/Readme_images/Answer_tab.jpg)   |
