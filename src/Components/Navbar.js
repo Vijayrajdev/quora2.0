@@ -136,7 +136,7 @@ const Navbar = () => {
                         onChange={(e) => setInputUri(e.target.value)}
                         type="text"
                         className="outline-none w-3/4 "
-                        placeholder="Optional linkOptional: include a link that gives context"
+                        placeholder="Optional link: include a link that gives context"
                       />
                     </div>
                   </div>
